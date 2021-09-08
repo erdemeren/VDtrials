@@ -1,0 +1,2 @@
+GAUSS;./output/GAUSSbench.csv;./output/EULERMODbench.csv;./output/EULERERRORbench.csv;./output/0CDEVbench.csv;./output/1CLENbench.csv;./output/3CVOLbench.csv;./output/0C1Cbench.csv;./output/0C3Cbench.csv;./output/0CVELbench.csv;NEUMANN_EXT;
+MS;./output/MSbench.csv;./output/ROCbench.csv;./output/VOLbench.csv;

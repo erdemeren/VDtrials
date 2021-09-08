@@ -1,0 +1,2 @@
+MS;./output/MS.csv;./output/ROC.csv;./output/VOL.csv;
+CRV;./output/CRV.csv;2;1;0. 0. 0.;

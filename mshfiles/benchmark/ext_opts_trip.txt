@@ -1,0 +1,4 @@
+MS;./output/MS.csv;./output/ROC.csv;./output/VOL.csv;-1;
+MEAS;./output/AREA.csv;2 3;
+ANGLE_CS;./output/ang1_1.csv; 2; 1 25; 2 2; 2 16; 0. 0. 0.; 0. 1. 0.;
+ANGLE_CS;./output/ang1_2.csv; 1; 1 25; 2 2; 2 3; 0. 0. 0.; 0. 1. 0.;

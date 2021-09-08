@@ -1,0 +1,1 @@
+ADAPT_BOUND;1;1;1;./mshfiles/ref_list_trip.txt;0.674136;./mshfiles/move_list_trip.txt;

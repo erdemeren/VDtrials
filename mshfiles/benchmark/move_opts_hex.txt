@@ -1,0 +1,3 @@
+./mshfiles/move_list_sph.txt;
+./mshfiles/move_list_hex.txt;
+./mshfiles/move_list_hex.txt;

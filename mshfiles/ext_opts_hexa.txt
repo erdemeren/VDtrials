@@ -1,0 +1,7 @@
+MS;./output/MS.csv;./output/ROC.csv;./output/VOL.csv;
+POS_DIR;./output/POSz.csv;0; 1; 0. 0. 0.; 0. 0. 1.;
+VEL_DIR;./output/VELz.csv;0; 1; 0. 0. 1.;
+ANGLE1;./output/ang0_1.csv; 1; 1; 37;
+ANGLE1;./output/ang0_2.csv; 1; 1; 13;
+ANGLE2;./output/ang1_1.csv; 1; 8; 1; 2;
+ANGLE2;./output/ang1_2.csv; 1; 1; 1; 15;

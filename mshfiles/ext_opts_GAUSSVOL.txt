@@ -1,0 +1,2 @@
+GAUSS;./output/GAUSS.csv;./output/EULERMOD.csv;./output/EULERERROR.csv;./output/0CDEV.csv;./output/1CLEN.csv;./output/3CVOL.csv;./output/0C1C.csv;./output/0C3C.csv;./output/0CVEL.csv;NEUMANN_EXT;
+MS;./output/MS.csv;./output/ROC.csv;./output/VOL.csv;

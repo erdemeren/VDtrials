@@ -1,0 +1,38 @@
+CC=mpicxx
+CXXFLAGS= -g -pg -std=gnu++11 -pedantic-errors -Wuninitialized
+#SCORECDIR = "/home/erdem/Documents/git/scorecv002"
+#ZOL_PARMETISDIR = "/home/erdem/Documents/git/pumi-12042014/install"
+SCORECDIR = /home/erdem/Documents/git/scorecbin
+ZOL_PARMETISDIR = /home/erdem/Documents/git/scorec/install
+VDDIR = "/home/erdem/Documents/git/VDlib"
+GSL_DIR = /usr/local
+
+VDLIBS = -I$(VDDIR)/src  -L$(VDDIR)/lib -I$(GSL_DIR)/include -L$(GSL_DIR)/lib -lvdtopo -lgsl -lgslcblas
+#SCORECLIBS = -I$(SCORECDIR)/include -I$(ZOL_PARMETISDIR)/include -L$(SCORECDIR)/lib -L$(ZOL_PARMETISDIR)/lib -lma -lparma -lapf_zoltan -lzoltan -lparmetis -lmetis -lmds -lapf -lgmi -lpcu -lmpi
+
+SCORECLIBS = -I$(SCORECDIR)/include -I$(ZOL_PARMETISDIR)/include -L$(SCORECDIR)/lib -L$(ZOL_PARMETISDIR)/lib -lma -lparma -lapf_zoltan -lmds -lapf -lgmi -llion -lcrv -lmth -lph -lsam -lspr -lpumi -lpcu -lzoltan -lparmetis -lmetis
+
+binaries=vdsim vdcirc vdedisc vdedisc newdim vdcol vddisp refine2x vdcirc vdsim2 vdcol
+
+# --- targets
+
+folder:
+	mkdir -p ./mshfiles
+	mkdir -p ./output
+	mkdir -p ./output/meshset
+	mkdir -p ./output/sub
+	mkdir -p ./outputiter
+	mkdir -p ./outputtemp
+	mkdir -p ./movie
+	mkdir -p ./movie/gif
+	mkdir -p ./tempmesh
+
+clean:
+	rm -rf ./src/*~ ./output/* ./outputiter/* ./outputtemp/* ./tempmesh/*
+	mkdir ./output/sub
+	echo "" > ./verb.txt
+cleanbuild:
+	rm -f $(binaries)
+cleanmovie:
+	rm -f ./movie/*.png
+
